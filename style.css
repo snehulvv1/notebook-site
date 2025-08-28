@@ -58,6 +58,60 @@
   cursor: pointer;
   color: #fff;
 }
+/* body starting*/
+
+ .body-pic {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  
+  
+}
+
+.container .row:first-of-type{
+  margin-top: 1rem;
+}
+.fa-pic{
+  width: 100%;
+  height: auto;
+}
+.container .founder h4{
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+.container .founder p{
+  color: rgb(128, 121, 121);
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+.container .founder button{
+  padding: .8rem;
+  width: 8.5rem;
+  margin-top: 1.5rem;
+  transition: .2s;
+ 
+}
+.container .founder button:hover{
+
+  transform: scale(1.02);
+
+}
+.founder-info{
+  padding-left: 4rem;
+  padding-bottom: 10rem;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 768px){
@@ -70,11 +124,26 @@
   .logo{
     padding: 10px 20px;
     margin-left: 5rem;
-    
-   
-    
+
   }
+  .founder-info{
+     margin: 2rem 0;
+}
+.container .founder h4{
+  text-align: center;
+  font-size: 1.2rem;
  
+}
+.container .founder p {
+  text-align: center;
+  flex-wrap: wrap;
+}
+.container .founder button{
+  position: absolute;
+  left: 42%;
+  
+}
+
 
 }
 @media (min-width: 768.1px) and (max-width: 992px){
@@ -87,10 +156,16 @@
   .logo{
     padding: 5px 20px;
     margin-left: 5rem;
-    
-   
-    
+
   }
+  
+  .founder-info{
+  padding-left: 4rem;
+  padding-top: 10rem;
+  
+}
+
+
 
 
 }
@@ -101,17 +176,19 @@
   cursor: pointer;
   color: #fff;
   gap: 15px;
-  
+ 
 }
 .navbar-nav .nav-link {
   color: #eee9f1;
   font-weight: 400;
   width: auto;
   margin: 0 5px;
- 
-  
-  
+
 }
+
+
+
+
 
   
 }
@@ -127,7 +204,8 @@
   font-size: 1.5rem;
   cursor: pointer;
   color: #fff;
-  gap: 15px;
+  gap: 18px;
+  margin-right: 2.2rem;
   
 }
 }
